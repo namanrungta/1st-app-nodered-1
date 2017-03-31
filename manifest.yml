@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 1st app nodered-1
+  host: 1st-app-nodered-1
+  disk_quota: 1024M
+  services:
+  - 1st app nodered-1-cloudantNoSQLDB
+  - 1st app nodered-1-iotf-service
